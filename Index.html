@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Dosis&family=Labrada&family=Roboto:ital@1&family=Shantell+Sans:ital,wght@0,300;1,300&family=Ubuntu:wght@300&display=swap">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Baloo+Bhai+2:wght@600&family=Dosis&family=Labrada&family=Roboto:ital@1&family=Shantell+Sans:ital,wght@0,300;1,300&family=Ubuntu:wght@300&display=swap">
+    <style>
+        .header
+        {
+            background-color: rgb(0, 0, 0);
+            padding: 2px 1px;
+        }
+        .navbar
+        {
+            display: inline-block;
+        }
+        .navbar li
+        {
+            display: inline-block;
+            font-size: 18px;
+        }
+        .navbar li a
+        {
+            color: white;
+            text-decoration: none;
+            padding: 0px 9px;
+        }
+        .navbar li a:hover
+        {
+           text-decoration: underline;
+           color: rgb(132, 132, 245);
+        }
+        body
+        {
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            background-image: url(/Project1/anastase-maragos-7kEpUPB8vNk-unsplash.jpg);
+            background-size: cover;
+        }
+        *{
+            /* This remove the by deafult margin of element's side */
+            margin: 0;
+            padding: 0;
+        }
+        .right
+        {
+            position: absolute;
+             right: 34px;
+             top: 20px;
+            display:block;
+            /* border: 2px solid yellow; */
+         padding: 1px;
+        }
+        .mid
+        {
+            display: block;
+            width: 61%;
+            margin: 20px auto;
+            /* border: 2px solid red; */
+            margin-left: 125px;
+            padding: 1px 1px;
+        }
+        .btn:hover
+        {
+            background-color: rgb(180, 173, 173);
+        }
+    
+        .left
+        {
+            /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: -17px;
+    top: -16px;
+    padding: 0px;
+        }
+        .left img
+        {
+            width: 130px;
+            height: 135px;
+        }
+        .right img
+        {
+width: 23px;
+height: 27px;
+padding: 1px 3px ;
+        }
+        .right img:hover
+        {
+            color:blue;
+            background-color: rgb(242, 242, 247);
+            cursor:pointer;
+        }
+        .main img:hover
+        {
+     background-color: white;
+     cursor:pointer;
+        }
+        .navbar li a.active, .navbar li a:hover {
+            color: orangered;
+            background-color: rgb(255, 254, 255);
+            text-decoration: underline;
+        }
+       .rain{
+        position: relative;
+      top: -9px;
+       }
+       .container
+       {
+        float: right;
+    border: 2px solid white;
+    margin: 77px 23px;
+    padding: 26px 25px;
+    width: 33%;
+    border-radius: 28px;
+       }
+       .van
+       {
+font-size: 35px;
+padding: 1px 1px;
+font-family: 'Archivo Black', sans-serif;
+       }
+       .btun{
+        border-radius: 11px;
+        position:relative;
+        right: -133px;
+        top: 12px;
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        padding: 6px 9px;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 16px;
+       }
+       .btun:hover{
+        cursor:pointer;
+        color: orangered;
+       } 
+       .form-group input
+       {
+        text-align: center;
+        width: 250px;
+        padding: 5px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 5px auto;
+        border-radius: 13px;
+        font-size: 16px;
+       }
+    </style>
+<body>
+<header class="header">
+<!-- left box for logo  -->
+<div class="left">
+    <img src="/Project1/White_and_black_Fitness_gym_logo-removebg-preview.png" alt="">
+</div>
+<!-- mid box for navbar  -->
+<div class="mid">
+ <ul class="navbar">
+        <li><a href="#" class="active" >HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CLASSES</a></li>
+        <li><a href="#">SERVICES</a> </li>
+        <li><a href="#">OUR TEAM</a> </li>
+        <li><a href="#">PAGES</a> </li>
+        <li><a href="#">CONTACT</a> </li>
+    </ul>
+</div>
+<!-- right box for buttons  -->
+<div class="right">
+    <span class="rain">
+    follow us+
+</span>
+    <img src="/Project1/icons8-facebook-24.png">
+    <img src="/Project1/icons8-youtube-48.png">
+    <span class="main">
+        <img  src="/Project1/icons8-twitter-48.png" >
+    </span>
+<img src="/Project1/icons8-instagram-48.png">
+</div>
+    <div class="background-image"></div>
+</header>
+<div class="container">
+    <div class="van"> <b><i> BUILD UP YOUR STRENGTH WITH GOLD GYM</i></b></div>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div> 
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div> 
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class="btun">
+            <b> <i> Join us </i> </b> 
+        </button>
+    </form>
+</div>
+</body>
+</html>
